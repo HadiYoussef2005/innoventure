@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+  font-family: 'Libre Bodoni', serif;
+  background-color: rgba(174, 180, 169, 1);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
