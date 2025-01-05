@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+VIC+Guides&family=Rubik+Vinyl&display=swap');
 
 body{
   font-family: 'Libre Bodoni', serif;
@@ -7,3 +7,21 @@ body{
   margin: 0;
   box-sizing: border-box;
 }
+
+.centerContainer {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  width: 100vw; 
+}
+
+
+.orangeText{
+  color: rgba(0, 78, 100, 1);
+}
+
+.blueText{
+  color: rgba(209, 96, 61, 1);
+}
+

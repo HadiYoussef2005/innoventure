@@ -1,0 +1,46 @@
+.innoventure{
+    font-size: 6rem;
+    display: inline-flex;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 6rem;
+    
+}
+
+#inno{
+    margin-right:0;
+}
+
+#venture{
+    margin-left: 0;
+}
+
+.columnFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-top: 0;
+}
+
+.catchphrase {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300; 
+    text-align: center; 
+}
+
+.btn{
+    background-color: rgba(0, 78, 100, 1);
+    border-radius: 0;
+    border: none;
+    height: 5rem;
+    width: 20rem;
+    margin-top: 4rem;
+    cursor: pointer;
+    font-size: 3rem;
+    font-family: 'Libre Bodoni', serif;
+    color: rgba(174, 160, 160, 1);
+}
