@@ -1,8 +1,3 @@
-# React + Vite
+# InnoVenture
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ever had a problem you didn't know how to solve? Ever wanted to approach new problems and try to solve them? InnoVenture is a social media web application which attempts to resolve both of these issues. Users who have problems can post them, and users who want to solve can look for them. 
