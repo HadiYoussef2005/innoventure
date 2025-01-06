@@ -44,3 +44,21 @@
     font-family: 'Libre Bodoni', serif;
     color: rgba(174, 160, 160, 1);
 }
+
+
+@media (max-width: 768px) {
+    .innoventure{
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+
+    .catchphrase{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        height: 3rem;
+        width: 16rem;
+        font-size: 2rem;
+    }
+}

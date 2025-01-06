@@ -1,35 +1,59 @@
 .navbar {
     width: 100%;
     height: 100px;
-    position: fixed;
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0 1rem;
-    z-index: 1000;
-    margin: 0;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     background-color: rgba(0, 78, 100, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
 }
 
 .navlist {
     list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
     padding: 0;
     margin: 0;
-    display: flex;
+    width: 100%;
 }
 
 .navitem {
-    margin-right: 1rem;
-    color: rgba(174, 180, 169, 1);
-    cursor: pointer;
-    margin: 0 1rem;
     font-size: 1.2rem;
     font-weight: 500;
     text-transform: uppercase;
+    color: rgba(174, 180, 169, 1);
     cursor: pointer;
+    text-align: left;
+    white-space: nowrap;
 }
 
-  
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navlist {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+    .navitem {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
